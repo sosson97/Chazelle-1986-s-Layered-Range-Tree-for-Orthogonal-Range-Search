@@ -16,7 +16,7 @@ using namespace std;
 int main(int argc, char* argv[]){
   
   //const string file_name = argv[1];
-  const string file_name = "input2.txt";
+  const string file_name = "input500.txt";
   ifstream input_stream(file_name.c_str());
   if(!input_stream.good()) {
     cerr << file_name << " does not exist." << endl;
